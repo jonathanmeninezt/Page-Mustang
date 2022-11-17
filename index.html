@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container-topo">
             <nav class="menu-desktop">
                 <img src="img/logo.png">
                 <ul>
@@ -39,14 +39,38 @@
                 <li><a href="">contato</a></li>
             </ul>
         </nav><!--menu-mobile-->
-    </div><!--container-->
+    </div><!--container-topo-->
     </header>
+
+    <div class="efeito">
+   <section class="page">
+     <div class="container-img">
+        <h2>Mustang Shelby</h2>
+     </div><!--container-img-->
+   </section><!--page-->
+   </div><!--efeito-->
+
+   <section class="information">
+    <img src="img/mustang.jpg">
+        <div class="container-info">
+            <h2>Exterior e Interior</h2>
+            <p>Novas rodas cinza brilhante, retrovisores, emblemas e aerofólio<br>
+                traseiro em cinza acetinado. Faixas laterais e de capô exclusivas em<br>
+                três cores. Painel em alumínio escovado escurecido, bancos<br>
+                dianteiros com design único e costuras contrastantes.</p>
+            <input type="submit" name="acao" value="Veja em Detalhes"/>    
+        </div><!--container-info-->
+   </section><!--information-->
+
+   <section class="wraper">
+        <div class="container"></div><!--container-->
+   </section><!--wraper-->
 
     
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
         <script type="text/javascript">
             $('nav.menu-mobile > i').click(function(){
-                $(this).parent().find('ul:not(.submenu-mobile)').slideToggle();
+                $(this).parent().find('ul:not(.menu-mobile)').slideToggle();
 
             });
         </script>

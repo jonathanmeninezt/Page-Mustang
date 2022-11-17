@@ -15,9 +15,10 @@ header{
     height: 160px;
     padding: 0 2%;
     background-color: #1282de;
+    
 }
 
-.container{
+.container-topo{
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -116,7 +117,210 @@ nav.menu-mobile > i{
     display: none;
 }
 
-@media screen and (max-width: 889px){
+section.page{
+    width: 100%;
+    height: 900px;
+    background: url('../img/gt500.jpg') center fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    transition: 1.7s;
+}
+
+section.page:hover{
+    opacity: 1;
+}
+
+section.page .container-img{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    right: 190px;
+    
+    
+}
+
+section.page .container-img h2{
+    font-size: 82px;
+    font-family:'Dancing Script', cursive;
+    font-weight: 500;
+    color:blue;
+    transition: 1s;
+    
+}
+
+section.page .container-img h2:hover{
+    color: #1282de;
+}
+
+.efeito{
+    width: 100%;
+    height: 900px;
+    background: black;
+}
+
+section.information{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background: white;
+}
+
+section.information img{
+    width: 50em;
+    height: 30em;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+section.information .container-info{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.information .container-info h2{
+    font-size: 52px;
+    font-weight: 500;
+    font-family:'Didact Gothic', sans-serif;
+    margin-top: 50px;
+    color: #616161;
+    
+}
+
+section.information .container-info p{
+    font-size: 19px;
+    font-weight: 300;
+    color: #616161;
+    margin-top: 10px;
+}
+
+section.information .container-info > input{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: 0px solid;
+    border-radius: 30px;
+    margin-top: 35px;
+    background: #00095b;
+    color: white;
+    -webkit-box-shadow: 5px 11px 23px 8px rgba(92,92,92,1);
+    -moz-box-shadow: 5px 11px 23px 8px rgba(92,92,92,1);
+    box-shadow: 5px 11px 23px 8px rgba(92,92,92,1);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+section.information .container-info > input:hover{
+    background: #1282de;
+    padding: 10px 42px;
+}
+
+
+@media screen and (max-width: 1650px){
+    section.information .container-info h2{
+        font-size: 42px;
+        margin-left: 90px;
+        
+    }
+    section.information .container-info p{
+        font-size: 19px;
+        margin-left: 90px;
+        
+    }
+    section.information .container-info > input{
+        margin-left: 90px;
+
+    }
+    section.information img{
+        width: 48em;
+        height: 28em;
+        margin-right: 50px;
+        
+    }
+    section.page .container-img h2{
+        font-size: 75px;
+        
+       
+        
+        
+    }
+}
+
+section.wraper{
+    width: 100%;
+    height: 600px;
+    background: url('../img/volante.jpg') center fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1478px){
+    section.page .container-img h2{
+        font-size: 65px;
+        margin-left: 450px;
+        }
+        section.information img{
+            width: 45em;
+            height: 25em;
+            margin-right: 10px;
+            
+        }
+        section.information .container-info h2{
+            font-size: 42px;
+            margin-left: 110px;
+            
+        }
+        section.information .container-info p{
+            font-size: 19px;
+            margin-left: 110px;
+            
+        }
+        section.information .container-info > input{
+            margin-left: 110px;
+    
+        }
+}
+
+@media screen and (max-width: 1401px){
+    section.page .container-img h2{
+        font-size: 56px;
+          
+        }
+    nav.menu-desktop{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    section.information img{
+        width: 42em;
+        height: 22em;
+        
+        
+    }
+    section.information .container-info h2{
+        font-size: 42px;
+        margin-left: 180px;
+        
+    }
+    section.information .container-info p{
+        font-size: 18px;
+        margin-left: 180px;
+        text-align: justify;
+        
+    }
+    section.information .container-info > input{
+        margin-left: 180px;
+
+    }
+}
+
+
+@media screen and (max-width: 905px){
     nav.menu-desktop{display: none;}
     nav.menu-mobile ul{
         position: absolute;
@@ -125,6 +329,7 @@ nav.menu-mobile > i{
         border-top: 2px solid #ccc;
         background: white;
         width: 100%;
+        z-index: 1;
         list-style-type: none;
         display: block;
         
@@ -140,6 +345,7 @@ nav.menu-mobile > i{
         
         
     }
+   
     nav.menu-mobile img{
         display: flex;
         
@@ -155,8 +361,143 @@ nav.menu-mobile > i{
         color: white;
         
     }
+    section.page .container-img{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        position: absolute;
+        top: 250px;
+        right: 10px;
+        
+        
+    }
+    section.information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 700px;
+        
+    }
+    section.information img{
+        width: 40em;
+        height: 20em;
+        
+        
+        
+        
+    }
+    section.information .container-info h2{
+        font-size: 32px;
+        
+        
+        
+    }
+    section.information .container-info p{
+        font-size: 16px;
+        margin-left: 180px;
+        text-align: justify;
+        
+    }
+    section.information .container-info > input{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 38px;
+
+    }
+
 
   
         
     }
 
+    @media screen and (max-width: 788px){
+        section.page{
+            width: 100%;
+            height: 900px;
+            background: url('../img/gt500.jpg') center fixed;
+            background-size: 100% 100%;
+           
+            opacity: 0.6;
+            transition: 1.7s;
+        }
+        section.page .container-img{
+            width: 100%;
+            position: absolute;
+            top: 230px;
+            left: 90px;
+            
+            
+            
+        }
+        section.page .container-img h2{
+            padding: 0px 100px;
+            font-size: 50px;
+            font-weight: 700;
+            
+            
+            
+              
+            }
+
+  }
+
+  
+  @media screen and (max-width: 665px){
+    section.page{
+        width: 100%;
+        height: 900px;
+        background: url('../img/gt500.jpg') center fixed;
+        background-size: 100% 100%;
+       
+        opacity: 0.6;
+        transition: 1.7s;
+    }
+    section.page .container-img{
+        width: 100%;
+        position: absolute;
+        top: 230px;
+        left: 90px;
+        
+        
+        
+    }
+    section.page .container-img h2{
+        padding: 0px 100px;
+        font-size: 50px;
+        font-weight: 700;
+        
+        
+        
+          
+        }
+        section.information img{
+            width: 32em;
+            height: 22em;
+            
+            
+            
+            
+        }
+        section.information .container-info h2{
+            font-size: 30px;
+            margin-left: 50px;
+            
+            
+            
+        }
+        section.information .container-info p{
+            font-size: 14px;
+            margin-left: 50px;
+            text-align: justify;
+            
+        }
+        section.information .container-info > input{
+            font-size: 15px;
+            font-weight: 600;
+            padding: 10px 38px;
+            margin-left: 50px;
+    
+        }
+
+}
