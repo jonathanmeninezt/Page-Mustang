@@ -258,6 +258,64 @@ section.wraper{
     background-repeat: no-repeat;
 }
 
+section.option{
+    width: 100%;
+    height: 900px;
+}
+
+section.option .container-colors{
+    max-width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.container-colors h2{
+    font-size: 28px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    color: #00095b;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+
+section.option .container-colors img{
+    width: 90%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.option .option-colors{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background: #cccc;
+    
+    
+}
+section.option .option-colors input{
+    width: 90px;
+    height: 72px;
+    margin: 0 20px;
+    text-align: center;
+     position: relative;
+    left: 22%;
+    padding: 0 3px;
+    display: flex;
+}
+
+section.option .option-colors input[type=image]:hover{
+    background-image: url("../img/confirme.png");
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 1478px){
     section.page .container-img h2{
         font-size: 65px;
@@ -282,6 +340,9 @@ section.wraper{
         section.information .container-info > input{
             margin-left: 110px;
     
+        }
+        section.option .option-colors input{
+            margin-right: 0px;
         }
 }
 
@@ -316,6 +377,18 @@ section.wraper{
     section.information .container-info > input{
         margin-left: 180px;
 
+    }
+    section.option .option-colors input{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1287px){
+    section.option .option-colors input{
+        width: 80px;
+        height: 65px;
+        position: relative;
+        left: 0px
     }
 }
 
@@ -381,7 +454,7 @@ section.wraper{
     }
     section.information img{
         width: 40em;
-        height: 20em;
+        height: 25em;
         
         
         
@@ -404,6 +477,19 @@ section.wraper{
         font-weight: 600;
         padding: 10px 38px;
 
+    }
+    
+    section.option .container-colors img{
+        width: 45em;
+        height: 25em;
+        position: relative;
+        left: 0;
+    }
+
+    section.option .option-colors input{
+            width: 60px;
+            height: 40px;
+            
     }
 
 
@@ -498,6 +584,32 @@ section.wraper{
             padding: 10px 38px;
             margin-left: 50px;
     
+        }
+
+        section.option .container-colors img{
+            width: 38em;
+            height: 18em;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        section.option .container-colors h2{
+            font-size: 18px;
+            margin-left: 0px;
+        }
+
+        section.option .option-colors{
+            height: 150px;
+            
+        }
+    
+        section.option .option-colors input{
+                width: 38px;
+                height: 28px;
+                margin: 0 10px;
+                
         }
 
 }
