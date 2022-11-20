@@ -232,9 +232,22 @@ footer .end-page{
 }
 
 footer .end-page h2{
-    font-size: 15px;
-    margin-top: 175px;
-    margin-left: 300px;
+    font-size: 17px;
+    font-family:'Didact Gothic', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-right: 100px;
+    transition: 0.5s;
+    
+}
+
+footer .end-page h2:hover{
+    color: white;
+    
+}
+
+footer .end-page h2 i:hover{
+    color: #1298de;
     
 }
 
@@ -251,6 +264,18 @@ footer .end-page img.img-two{
     margin-top: 60px;
     margin-left: 30px;
     
+}
+
+footer .descriptions{
+    width: 100%;
+    height: 30px;
+    background: gray;
+}
+
+footer .descriptions h2{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
 }
 
 
