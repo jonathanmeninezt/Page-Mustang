@@ -226,18 +226,28 @@ footer{
 }
 
 footer .end-page{
-    max-width: 1400px;
+    max-width: 100%;
     display: flex;
     justify-content: end;
+    background-color: #1282de;
+    
 }
 
-footer .end-page h2{
+footer .end-page .center-text{
+    width: 18%;
+   background:  #1282de;
+}
+
+footer .end-page .center-text h2{
     font-size: 17px;
     font-family:'Didact Gothic', sans-serif;
     font-weight: 400;
     margin-top: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
     transition: 0.5s;
+    
+    
     
 }
 
@@ -276,6 +286,7 @@ footer .descriptions h2{
     font-size: 12px;
     text-align: center;
     padding-top: 5px;
+    
 }
 
 
@@ -698,18 +709,28 @@ section.option .option-colors input[type=image]:hover{
         }
 
         footer .end-page img.img-one{
-            width: 9em;
+            width: 8em;
             height: 8em;
             position: absolute;
-            right: 100px;
+            right: 126px;
             
             
         }
         
         footer .end-page img.img-two{
-            width: 23em;
+            width: 20em;
             height: 7em;
             margin-left: 500px;
+            
+        }
+
+        footer .end-page .center-text h2{
+            font-size: 14px;
+            width: 90px;
+            margin: 20px 0px;
+         
+            
+            
             
         }
 
