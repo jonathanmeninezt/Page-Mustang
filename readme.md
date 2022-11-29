@@ -4,7 +4,10 @@
 </h1>
 
 <h1>
- <img src="">
+ <img src="img/Home.jpg">
+ <img src="img/informação.jpg">
+ <img src="img/Cores.jpg">
+ <img src="img/Footer.jpg">
 </h1>
 
 ## 📘 Sobre
