@@ -3,6 +3,8 @@
 <p>PAGE MUSTANG</p>
 </h1>
 
+
+
 <h1>
  <img src="img/Home.jpg">
  <img src="img/informação.jpg">
@@ -11,6 +13,7 @@
 </h1>
 
 ## 📘 Sobre
+<h1></h1>
 
 O projeto **Page Mustang** foi criado para mostrar as variações de cores disponíveis de um carro Mustang para visualização.  <br>
 <br>
@@ -19,6 +22,7 @@ O projeto **Page Mustang** foi criado para mostrar as variações de cores dispo
 <br>
 
 ## 🔨 Ferramentas utilizadas
+
 - HTML
 - CSS
 - JAVASCRIPT
@@ -29,13 +33,24 @@ O projeto **Page Mustang** foi criado para mostrar as variações de cores dispo
 <br>
 
 ## Objetivo com o projeto:
-<P>Demonstrar e praticar em uma página, a montagem de uma estrutura em HTML, CSS e JavaScript, criando layouts e efeitos para visualização. Prtaicar também o modo responsivo para que a página fique compatível para todos os tamanhos de tela.</P>
+<h1></h1>
+<P>Demonstrar e praticar em uma página, a montagem de uma estrutura em HTML, CSS e JavaScript, criando layouts e efeitos para visualização. Praticar também o modo responsivo para que a página fique compatível para todos os tamanhos de tela.</P>
 <br>
 <br>
 <br>
 
 ## Aprendizado
+<h1></h1>
 <p>Obtive uma evolução no manuseio com o HTML e CSS, na criação de uma estruturta para adicionar imagens e textos e fazer as estilizações. No JavaScript aprendi a utilizar uma função que realize a troca de imagens ao clicar em um elemento, com isso consegui aprender e realizar o meu objetivo no projeto. </p>
-
+<br>
+<br>
+<br>
+<br>
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="right" alt="" height="150" style="border-radius:50px;" 
+</div>
 
 
