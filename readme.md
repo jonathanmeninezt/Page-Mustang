@@ -5,7 +5,7 @@
 
 ![Home](https://user-images.githubusercontent.com/116603241/204657043-8d5fa230-0b62-4582-a6f1-345eac5b7c24.JPG)
 ![informação](https://user-images.githubusercontent.com/116603241/204657048-66c1ec42-1a2c-4ede-86b9-c8cd032ba7af.JPG)
-![Cores](https://user-images.githubusercontent.com/116603241/204657032-2ae77af4-7cf9-4adf-ad4a-5fe52dadc450.JPG)
+![Design sem nome (1)](https://user-images.githubusercontent.com/116603241/204674824-c0339f47-4a2d-496e-86e5-0951d32596fa.gif)
 ![Footer](https://user-images.githubusercontent.com/116603241/204657038-6d60cf2c-9388-4a61-9976-1bc10893b292.JPG)
 
 
